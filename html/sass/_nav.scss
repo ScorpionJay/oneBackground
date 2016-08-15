@@ -1,0 +1,37 @@
+/**
+*	nav 
+*/
+
+@import "_variables";
+
+
+.nav {
+	width:100%;
+
+		.nav-ul {
+			width:100%;
+			height:$nav-height;
+			padding:0px;
+
+			li {
+					float:left;
+					width:$nav-li-width;
+					text-align: center;
+					line-height:$nav-height;
+					background-color:$nav-li-bg;
+					height:$nav-height;
+
+					a{
+						color:$nav-a-color;
+						font-size:$nav-a-font-size;
+						font-family: $nav-a-font-family;
+					}
+
+					.active {
+						color:$nav-active-color;
+					}
+				}
+		}
+}
+
+

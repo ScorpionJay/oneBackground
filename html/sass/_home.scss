@@ -1,0 +1,22 @@
+/**
+* home 
+*/
+
+@import "_variables";
+
+.home-content {
+	text-align:center;
+	color:$home_content_color;
+	font-size:30px;
+	height:400px;
+}
+
+
+.item {
+	border-bottom: 1px #999 solid;
+	background-color:#fff;
+	padding:5px 20px;
+	font-size:30px;
+	color:#999;
+	font-family:cursive;
+}

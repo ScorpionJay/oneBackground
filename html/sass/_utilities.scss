@@ -1,0 +1,28 @@
+/**
+*	Utilitiess
+*/
+
+/** 所有的都置顶 */
+* {
+	margin:0px;
+	padding:0px;
+}
+
+/** 去掉a标签的下划线 */
+a {
+  text-decoration: none;
+}
+
+/** 去掉li前面的原点 */
+li {
+  list-style: none;
+}
+
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}

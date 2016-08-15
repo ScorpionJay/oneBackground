@@ -1,0 +1,23 @@
+/**
+* main 
+*/
+
+@import "_variables";
+@import "_utilities";
+
+@import "_nav";
+@import "_home";
+
+@import "Slider";
+
+/**
+* body
+*/
+body {
+	background-color: $body-bg;
+}
+
+.content {
+	margin-top:2px;
+}
+
