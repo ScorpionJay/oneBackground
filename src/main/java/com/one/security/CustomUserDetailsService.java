@@ -8,7 +8,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
 import com.one.service.iface.UserService;
-import com.one.vo.UserVo;
+import com.one.weixin.vo.UserVo;
 
 /**
 *@author	jay
@@ -27,7 +27,7 @@ public class CustomUserDetailsService implements UserDetailsService {
 		log.info(username);
 		
 		// 这里去查询
-		UserVo userVo =	userService.findByUserName(username);
+		com.one.vo.UserVo userVo =	userService.findByUserName(username);
 		
 		SecurityUser user = new SecurityUser();
 		if(userVo != null){

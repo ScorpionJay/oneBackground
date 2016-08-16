@@ -9,7 +9,7 @@ import static org.springframework.data.mongodb.core.query.Criteria.where;
 
 import com.one.entity.mongo.Wechat;
 import com.one.service.iface.WxService;
-import com.one.vo.WechatVo;
+import com.one.weixin.vo.WechatVo;
 
 /**
  * @author Jay

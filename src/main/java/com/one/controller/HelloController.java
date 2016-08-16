@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.one.entity.User;
 import com.one.service.iface.UserService;
-import com.one.vo.UserVo;
+import com.one.weixin.vo.UserVo;
 
 /**
  * 测试控制器

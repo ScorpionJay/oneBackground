@@ -1,4 +1,4 @@
-package com.one.vo;
+package com.one.weixin.vo;
 
 import java.io.Serializable;
 import java.util.Map;

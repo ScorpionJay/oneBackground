@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.one.controller.HelloController;
-import com.one.vo.AccessToken;
+import com.one.weixin.vo.AccessToken;
 
 /**
  * 获取token的线程( 存储appid appsecret token，将来可以使用数据库存放，例如redis缓存起来 )

@@ -13,8 +13,8 @@ import com.one.entity.mongo.Image;
 import com.one.repository.mongo.ImageRepository;
 import com.one.service.iface.FileService;
 import com.one.service.iface.IImageService;
-import com.one.vo.PaginationVo;
-import com.one.vo.WxArticleVo;
+import com.one.weixin.vo.PaginationVo;
+import com.one.weixin.vo.WxArticleVo;
 
 /**
  * Image service implement

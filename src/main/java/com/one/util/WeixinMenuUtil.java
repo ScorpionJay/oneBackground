@@ -6,10 +6,10 @@ import net.sf.json.JSONObject;
 
 import org.apache.http.ParseException;
 
-import com.one.menu.Button;
-import com.one.menu.ClickButton;
-import com.one.menu.Menu;
-import com.one.menu.ViewButton;
+import com.one.weixin.menu.Button;
+import com.one.weixin.menu.ClickButton;
+import com.one.weixin.menu.Menu;
+import com.one.weixin.menu.ViewButton;
 
 /**
  * @author       Jay

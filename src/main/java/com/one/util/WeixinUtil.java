@@ -28,11 +28,11 @@ import org.springframework.web.client.RestTemplate;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mongodb.util.Hash;
-import com.one.vo.AccessToken;
-import com.one.vo.NewsVo;
-import com.one.vo.Oauth2Token;
-import com.one.vo.UserInfo;
-import com.one.vo.WxMediaVo;
+import com.one.weixin.vo.AccessToken;
+import com.one.weixin.vo.NewsVo;
+import com.one.weixin.vo.Oauth2Token;
+import com.one.weixin.vo.UserInfo;
+import com.one.weixin.vo.WxMediaVo;
 
 import net.sf.json.JSONObject;
 

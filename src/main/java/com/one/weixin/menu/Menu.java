@@ -1,4 +1,4 @@
-package com.one.menu;
+package com.one.weixin.menu;
 
 /**
  * @author Jay

@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.one.util.Sign;
 import com.one.util.TokenThread;
 import com.one.util.WeixinUtil;
-import com.one.vo.WxShareVo;
+import com.one.weixin.vo.WxShareVo;
 
 /**
  * 微信分享控制器

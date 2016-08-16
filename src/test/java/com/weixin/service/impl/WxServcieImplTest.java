@@ -16,7 +16,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.one.app.Application;
 import com.one.service.iface.WxService;
-import com.one.vo.WechatVo;
+import com.one.weixin.vo.WechatVo;
 
 /**
 * @author Jay

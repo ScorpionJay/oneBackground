@@ -4,7 +4,7 @@
 
 package com.one.service.iface;
 
-import com.one.vo.WechatVo;
+import com.one.weixin.vo.WechatVo;
 
 /**
  * wx service interface

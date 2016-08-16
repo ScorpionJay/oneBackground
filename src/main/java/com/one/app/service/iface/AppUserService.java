@@ -1,33 +1,33 @@
-package com.one.service.iface;
+package com.one.app.service.iface;
 
 import java.util.Set;
 
-import com.one.weixin.vo.UserVo;
+import com.one.app.vo.AppUserVo;
 
 /**
  * @author jay
  * @since 2016年6月8日
  */
-public interface UserService {
+public interface AppUserService {
 
 	
 	/**
 	 * 新增用户
 	 * @param user
 	 */
-	void addUser(UserVo userVo);
+	void addUser(AppUserVo appUserVo);
 	
 	/**
 	 * 根据用户名查找用户
 	 * @param userName
 	 * @return
 	 */
-	com.one.vo.UserVo findByUserName(String userName);
+	AppUserVo findByUserName(String userName);
 	
 	/**
 	 * 查找所有用户
 	 * @return
 	 */
-	Set<UserVo> findAllUsers();
+	Set<AppUserVo> findAllUsers();
 	
 }

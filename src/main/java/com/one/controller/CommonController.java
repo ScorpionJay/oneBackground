@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.one.service.iface.UserService;
-import com.one.vo.UserVo;
+import com.one.weixin.vo.UserVo;
 
 /**
  * @author jay

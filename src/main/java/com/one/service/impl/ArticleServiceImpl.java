@@ -13,8 +13,8 @@ import org.springframework.stereotype.Service;
 import com.one.entity.mongo.Article;
 import com.one.repository.mongo.ArticleRepository;
 import com.one.service.iface.ArticleService;
-import com.one.vo.ArticleVo;
-import com.one.vo.PaginationVo;
+import com.one.weixin.vo.ArticleVo;
+import com.one.weixin.vo.PaginationVo;
 
 /**
  * Created by Jay on 2015/5/26.

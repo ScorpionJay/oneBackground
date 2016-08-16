@@ -19,7 +19,7 @@ import com.mongodb.ServerAddress;
  * @since 2016.6.16
  */
 @Configuration
-@EnableMongoRepositories(basePackages = "com.one.repository.mongo")
+@EnableMongoRepositories(basePackages = "com.one")
 public class MongoConfiguration extends AbstractMongoConfiguration {
 
 	@Value("${mongo.host}")

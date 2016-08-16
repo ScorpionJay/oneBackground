@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.one.service.iface.ArticleService;
-import com.one.vo.ArticleVo;
-import com.one.vo.PaginationVo;
+import com.one.weixin.vo.ArticleVo;
+import com.one.weixin.vo.PaginationVo;
 
 /**
  * @author       Jay

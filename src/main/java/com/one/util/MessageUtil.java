@@ -13,7 +13,7 @@ import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 
-import com.one.vo.TextMessage;
+import com.one.weixin.vo.TextMessage;
 import com.thoughtworks.xstream.XStream;
 
 /**

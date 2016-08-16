@@ -3,8 +3,8 @@ package com.one.service.iface;
 import java.util.Date;
 import java.util.List;
 
-import com.one.vo.ArticleVo;
-import com.one.vo.PaginationVo;
+import com.one.weixin.vo.ArticleVo;
+import com.one.weixin.vo.PaginationVo;
 
 /**
  * Created by Jay on 2015/5/26.

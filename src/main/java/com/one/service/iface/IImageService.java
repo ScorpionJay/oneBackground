@@ -1,7 +1,7 @@
 package com.one.service.iface;
 
 import com.one.entity.mongo.Image;
-import com.one.vo.PaginationVo;
+import com.one.weixin.vo.PaginationVo;
 
 /**
  * Image service interface

@@ -13,8 +13,8 @@ import org.slf4j.LoggerFactory;
 import com.one.controller.HelloController;
 import com.one.util.TokenThread;
 import com.one.util.WeixinUtil;
-import com.one.vo.Oauth2Token;
-import com.one.vo.UserInfo;
+import com.one.weixin.vo.Oauth2Token;
+import com.one.weixin.vo.UserInfo;
 
 /**
  * 

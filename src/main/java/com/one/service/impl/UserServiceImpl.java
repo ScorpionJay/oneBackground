@@ -1,6 +1,5 @@
 package com.one.service.impl;
 
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -9,10 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.one.entity.mongo.User;
-import com.one.exception.MyException;
 import com.one.repository.mongo.UserRepository;
 import com.one.service.iface.UserService;
-import com.one.vo.UserVo;
+import com.one.weixin.vo.UserVo;
 
 /**
  * @author jay
@@ -25,11 +23,11 @@ public class UserServiceImpl implements UserService {
 	private UserRepository userRepository;
 
 	@Override
-	public UserVo findByUserName(String userName) {
+	public com.one.vo.UserVo findByUserName(String userName) {
 		User user = userRepository.findByUserName(userName);
-		UserVo userVo = null; 
+		com.one.vo.UserVo userVo = null; 
 		if(user != null){
-			userVo = new UserVo();
+			userVo = new com.one.vo.UserVo();
 			userVo.setId(user.getId());
 			userVo.setUserName(user.getUserName());
 			userVo.setPassword(user.getPassword());

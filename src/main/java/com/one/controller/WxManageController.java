@@ -21,8 +21,8 @@ import com.one.service.iface.WxService;
 import com.one.util.TokenThread;
 import com.one.util.WeixinMenuUtil;
 import com.one.util.WeixinUtil;
-import com.one.vo.ResultVo;
-import com.one.vo.WechatVo;
+import com.one.weixin.vo.ResultVo;
+import com.one.weixin.vo.WechatVo;
 
 /**
  * wx manage controller

@@ -20,9 +20,9 @@ import com.one.util.CheckUtil;
 import com.one.util.MessageUtil;
 import com.one.util.TokenThread;
 import com.one.util.WeixinUtil;
-import com.one.vo.AccessToken;
-import com.one.vo.ResultVo;
-import com.one.vo.WechatVo;
+import com.one.weixin.vo.AccessToken;
+import com.one.weixin.vo.ResultVo;
+import com.one.weixin.vo.WechatVo;
 
 import net.sf.json.JSONObject;
 
