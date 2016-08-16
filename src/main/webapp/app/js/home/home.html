@@ -1,0 +1,140 @@
+home template
+
+{{name}}
+
+<hr>
+
+<div class="panel panel-primary" ng-init="fnGetWxInfo()">
+  <div class="panel-heading">Get wx info</div>
+  <div class="panel-body">
+    <div>
+		<div class='row'>
+			<label class="col-xs-3">AppID(应用ID)</label>
+			<input class="col-xs-6" ng-model='wxInfo.appId' />
+		</div>
+		<div class='row'>
+			<label class="col-xs-3">AppSecret(应用密钥)</label>
+			<input  class="col-xs-6" ng-model='wxInfo.appSecret' />
+		</div>
+		<div class='row'>
+			<label class="col-xs-3">Token</label>
+			<label class="col-xs-6" ng-bind='wxInfo.token' ></label>
+		</div>
+		<div class='row'>
+			<label class="col-xs-3">Token Date</label>
+			<label class="col-xs-6" ng-bind="wxInfo.tokenDate | date:'HH:mm:ss' " /></label>
+		</div>
+		<div class='row'>
+			<label class="col-xs-12">
+				<button class="btn-primary" ng-click="fnGetToken()">Refresh token</button>
+			</label>
+		</div>
+	</div>
+  </div>
+</div>
+
+
+<div class="panel panel-primary">
+  <div class="panel-heading">Get followers</div>
+  <div class="panel-body">
+    <div>
+    
+    	<div class='row'>
+			<label class="col-xs-12">
+				<button class="btn-primary" ng-click="fnGetFollowers()">Get followers</button>
+			</label>
+		</div>
+    
+    	<div class='row' ng-repeat="obj in followers">
+    		<div class='row col-xs-4'>
+				<img class="col-xs-12" ng-src={{obj.headImgUrl}} style="width:130px;height:100px"/>
+			</div>
+			<div class='row col-xs-8'>
+	    		<div class='row'>
+					<label class="col-xs-3">nickname</label>
+					<label class="col-xs-6" ng-bind='obj.nickname' ></label>
+				</div>
+				<div class='row'>
+					<label class="col-xs-3">sex</label>
+					<label class="col-xs-6" ng-bind='obj.sex === 1 ? "boy":"girl"' ></label>
+				</div>
+				<div class='row'>
+					<label class="col-xs-3">country</label>
+					<label class="col-xs-6" ng-bind='obj.country' ></label>
+				</div>
+				<div class='row'>
+					<label class="col-xs-3">province</label>
+					<label class="col-xs-6" ng-bind='obj.province' ></label>
+				</div>
+				<div class='row'>
+					<label class="col-xs-3">city</label>
+					<label class="col-xs-6" ng-bind='obj.city' ></label>
+				</div>
+			</div>
+    	</div>
+		
+		
+	</div>
+  </div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">Menu</div>
+  <div class="panel-body">
+    menu.... {{menus}}
+    	<div class='row'>
+			<label class="col-xs-12">
+				<button class="btn-primary" ng-click="fnGetMenus()">Get menus</button>
+			</label>
+		</div>
+  </div>
+</div>
+
+
+test<img src="http://localhost:8888/wechat/api/file/getById?id=57675ec18cdae271ac4974a3">
+
+<div class="panel panel-primary">
+  <div class="panel-heading">resource</div>
+  <div class="panel-body">
+   resource...
+  </div>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">小黄鸡</div>
+  <div class="panel-body">
+   小黄鸡...
+  </div>
+</div>
+
+
+
+
+<div class="container" style="margin-top:100px;">
+  
+  <div>
+  	test
+  	<form	action="/wechat/wxManage/save" method="post" enctype="multipart/form-data">
+  		<input type="file" name="file">
+  		<input type="submit" value="Upload"/>
+  	</form>
+  	
+  </div>
+
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading"></div>
+  <div class="panel-body">
+   	<div class='row'>
+			<label class="col-xs-12">
+				<button class="btn-primary" ng-click="fnGetMeteials()">Get followers</button>
+			</label>
+		</div>
+	</div>
+	<div ng-repeat="item in meteials.item">
+	{{item.url}}
+		<img ng-src="{{item.url}}">
+	</div>
+  </div>
+</div>
